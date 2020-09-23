@@ -52,7 +52,7 @@ function clearfilter() {
 }
 
 //actions to perform on selecting the enter button or clicking on the filter/unfilter buttons
-d3.select("#dataSel").on("keydown = 13", filterClick)
+// d3.select("#dataSel").on("keydown = 13", filterClick)
 d3.select("#filter-btn").on("click", filterClick);
 d3.select("#clear-filter").on("click", clearfilter);
 
