@@ -34,7 +34,7 @@ function selectData(ufosight) {
   if(option1 === "shape") {
     return ufosight.shape === dataSelected};
   if(option1 === "duration") {
-    return ufosight.durationMinutes === dataSelected};
+    return ufosight.duration === dataSelected};
 }
 
 //using the filter and producing the table
